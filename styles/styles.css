@@ -6,6 +6,17 @@ h1{
     color: white;
 }
 
+.logo{
+    background: #121212;
+    display:flex;
+    border-radius:8px ;
+    padding:16px 0 0 16px;
+}
+
+.logo__spotify{
+    width: 80px;
+}
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -15,14 +26,7 @@ h1{
     width: 300px;
 }
 
-.sidebar__navigation .logo {
-    background-color: #121212;
-    display: flex;
-    border-radius: 8px;
-    padding: 16px 0 0 16px;
-}
-
-.sidebar__navigation .logo img {
+.sidebar__navigation .logo .img {
     width: 80px;
 }
 
@@ -78,7 +82,7 @@ h1{
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", serif;
+    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
