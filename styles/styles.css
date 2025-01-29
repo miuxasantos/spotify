@@ -184,3 +184,46 @@ h1{
     margin: 8px 8px 16px 8px;
     padding: 10px;
 }
+
+.footer__alerta {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ffe138, #b938ff);
+    padding: 15px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__alerta .text {
+    flex-shrink: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer__alerta .premium__title {
+    color: #121212;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer__alerta .premium__subtitle {
+    color: #121212;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.footer__alerta button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
