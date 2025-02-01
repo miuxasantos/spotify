@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./Header.css"
-import setaEsquerda from '../assets/icons/small-left.png'
-import setaDireita from '../assets/icons/small-right.png'
-import lupa from '../assets/icons/search.png'
+import styles from "./Header.css";
+import setaEsquerda from '../../assets/icons/small-left.png';
+import setaDireita from '../../assets/icons/small-right.png';
+import lupa from '../../assets/icons/search.png';
 
 const Header = () => {
     return (
